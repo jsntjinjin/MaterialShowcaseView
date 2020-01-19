@@ -316,7 +316,7 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
                 FrameLayout.LayoutParams contentLP = (LayoutParams) getLayoutParams();
 
                 if (contentLP != null && contentLP.bottomMargin != mBottomMargin)
-                    contentLP.bottomMargin = mBottomMargin;
+                    contentLP.bottomMargin = 0;
             }
 
             // apply the target position
